@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.ocultar{
+    z-index: 3;
+}
+
+.b-f{
+    border: 2px solid #fff;
+    box-shadow: 0 0 20px #10edd7;
+}
+
+.up {
+    transition: transform 300ms ease-in-out;
+  }
+  
+.up:hover {
+    transform: translateY(-2px);
+  }
